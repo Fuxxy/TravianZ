@@ -1,3 +1,7 @@
 /nbproject/
 /GameEngine/config.php
 .DS_Store
+
+.project
+
+.settings/com.aptana.editor.php.prefs
