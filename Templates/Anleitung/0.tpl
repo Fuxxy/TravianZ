@@ -174,7 +174,7 @@
             <td width="25" align="center">
                 <a href="#" onClick="return Popup(1,10,'');"><img src="img/un/u/10.gif" width="16" height="16" border="0" alt=""></a>
             </td>
-            <td class="text" width="135"><?php echo U1^0; ?></td>
+            <td class="text" width="135"><?php echo U10; ?></td>
             <td width="25">0</td>
             <td>80</td>
             <td>80</td>
