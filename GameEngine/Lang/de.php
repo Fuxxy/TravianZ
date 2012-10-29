@@ -273,7 +273,7 @@ define("TRIBE_SPEC","Merkmale:");
 define("TRIBE1_TROOPS","Die Römischen Truppen");
 define("TRIBE2_TROOPS","Die Germanischen Truppen");
 define("TRIBE3_TROOPS","Die Gallischen Truppen");
-define("TRIBE_TEXT","You can choose between three tribes in Travian: Romans, Gauls and Teutons. Each tribe has advantages and disadvantages and their troops are also very different. It is important to choose the tribe that fits you perfectly.");
+define("TRIBE_TEXT","Du kannst zwischen drei Völkern wählen: Römer, Gallier und Germanen. Each tribe has advantages and disadvantages and their troops are also very different. It is important to choose the tribe that fits you perfectly.");
 define("TRIBE1_TEXT","Because of its high level of social and technological development the Romans are masters at building and its coordination. Also, their troops are part of the elite in Travian. They are very balanced and useful in attacking and defending.<br><br>
     To guarantee this variety the Roman troops are trained for a very long time and their training is expensive. Their infantry is a living legend, but their defence against enemy cavalry isn't as good as that of the other tribes. The amount of resources a Roman merchant is able to carry is very low.<br><br>
     Weil sie am anfang recht schwach sind sollten Anfänger sie nicht wählen.");
