@@ -1,5 +1,5 @@
 <p>
-    You can choose between three tribes in Travian: Romans, Gauls and Teutons. Each tribe has advantages and disadvantages and their troops are also very different. It is important to choose the tribe that fits you perfectly.
+    <?php echo TRIBE_TEXT; ?>
 </p>
 <h2><?php echo TRIBE1; ?></h2>
 <p>
