@@ -1,4 +1,5 @@
 <?php
+ini_set ('display_errors', 'On');
 #################################################################################
 ##              -= YOU MAY NOT REMOVE OR CHANGE THIS NOTICE =-                 ##
 ## --------------------------------------------------------------------------- ##
@@ -43,6 +44,8 @@ include('GameEngine/Account.php');
                     ?>
                     <div id="content"  class="signup">
 
+<!--                        <h1><span class="anmelden"><?php echo IMG_ANMELDEN; ?></span></h1>-->
+<!--                        <h5><span class="img_u05"><?php echo IMG_U05; ?></span></h5>-->
                         <h1><img src="img/x.gif" class="anmelden" alt="register for the game"></h1>
                         <h5><img src="img/x.gif" class="img_u05" alt="registration"/></h5>
 
@@ -81,6 +84,8 @@ include('GameEngine/Account.php');
                             <table cellpadding="1" cellspacing="1" id="sign_select">
                                 <tbody>
                                     <tr class="top">
+<!--                                        <th><span class="img_u06"><?php echo IMG_U06; ?></span></th>-->
+<!--                                        <th colspan="2"><span class="img_u07"><?php echo IMG_U07; ?></span></th>-->
                                         <th><img src="img/x.gif" class="img_u06" alt="choose tribe"></th>
                                         <th colspan="2"><img src="img/x.gif" class="img_u07" alt="starting position"></th>
                                     </tr>
@@ -121,7 +126,8 @@ include('GameEngine/Account.php');
                     </div>
                 <?php } else { ?>
                     <div id="content"  class="signup">
-
+<!--                        <h1><span class="anmelden"><?php echo IMG_ANMELDEN; ?></span></h1>-->
+<!--                        <h5><span class="img_u05"><?php echo IMG_U05; ?></span></h5>-->
                         <h1><img src="img/x.gif" class="anmelden" alt="register for the game"></h1>
                         <h5><img src="img/x.gif" class="img_u05" alt="registration"/></h5>
 

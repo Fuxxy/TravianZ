@@ -321,7 +321,10 @@ define("BEFORE_REGISTER","Bevor du dich registrierst solltest du die <a href='..
 define("BUILDING_UPGRADING","Building:"); //eng Zusammenhang?
 define("HOURS","Stunden");
 define("PW_WARNING","<b>Hinweis:</b> Passwörter mit & können Probleme verursachen!");
-
+define("IMG_ANMELDEN","Registration"); // anmelden.php Zeilen 49 und 131
+define("IMG_U05","Registration"); // anmelden.php Zeilen 50 und 132
+define("IMG_U06","Choose Tribe"); // anmelden.php Zeile 89
+define("IMG_U07","Starting position"); // anmelden.php Zeile 90
 
 //ATTACKS ETC.
 define("TROOP_MOVEMENTS","Truppenbewegungen:");
@@ -376,15 +379,15 @@ define("MASS_SENT","Massenmail versendet");
 	   $lang['index'][0][2] = "Anleitung";
 	   $lang['index'][0][3] = "Gratis spielen!";
 	   $lang['index'][0][4] = "Was ist " . SERVER_NAME . "";
-	   $lang['index'][0][5] = "" . SERVER_NAME . " ist eim <b>Browserspiel</b> mit einer beeindruckenden Welt und vielen anderen Spielern.</p><p>Es ist <strong>kostenlos</strong> un benötigt <strong>keinen Download</strong>.";
+	   $lang['index'][0][5] = "" . SERVER_NAME . " ist ein <b>Browserspiel</b> mit einer beeindruckenden Welt und vielen anderen Spielern.</p><p>Es ist <strong>kostenlos</strong> und benötigt <strong>keinen Download</strong>.";
 	   $lang['index'][0][6] = "Klick hier um " . SERVER_NAME . " zu spielen";
 	   $lang['index'][0][7] = "Spieler";
 	   $lang['index'][0][8] = "Spieler aktiv";
 	   $lang['index'][0][9] = "Spieler online";
 	   $lang['index'][0][10] = "Über das Spiel";
 	   $lang['index'][0][11] = "Du beginnst als Anführer eines kleinen Dorfes und begibst dich auf eine unfassbare Mission.";
-	   $lang['index'][0][12] = "Errichte Dörfer, zettel Krige an und errichte mächtige Handelsrouten.";
-	   $lang['index'][0][13] = "Spiele mit und gegen unzählige andere Spieler im kampf um die Welt.";
+	   $lang['index'][0][12] = "Erbaue Dörfer, zettel Kriege an und errichte mächtige Handelsrouten.";
+	   $lang['index'][0][13] = "Spiele mit und gegen unzählige andere Spieler im Kampf um die Welt.";
 	   $lang['index'][0][14] = "News";
 	   $lang['index'][0][15] = "FAQ";
 	   $lang['index'][0][16] = "Screenshots";
