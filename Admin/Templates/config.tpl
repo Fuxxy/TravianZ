@@ -13,6 +13,11 @@
 mysql_connect(SQL_SERVER, SQL_USER, SQL_PASS);
 mysql_select_db(SQL_DB);
 if ($_SESSON['access'] == MULTIHUNTER) die("<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><b><font color='Red'><center>Access Denied: You are not admin</b></font></center>");
+
+$lang = array(
+    "de" => "Deutsch",
+    "en" => "English",
+);
 ?>
 
 <style>
@@ -34,15 +39,21 @@ if ($_SESSON['access'] == MULTIHUNTER) die("<br /><br /><br /><br /><br /><br />
 	</tr>
 	<tr>
 		<td>Server Name</td>
-		<td><?php echo SERVER_NAME;?></td>
+		<td><input type="text" name="SERVER_NAME" value="<?php echo SERVER_NAME;?>"></td>
 	</tr>
 	<tr>
 		<td>Server Started</td>
-		<td><?php echo date("d.m.y H:i",COMMENCE);?></td>
+		<td><input type="text" name="SERVER_NAME" readonly value="<?php echo date('d.m.y H:i',COMMENCE);?>"></td>
 	</tr>
 	<tr>
 		<td>Language</td>
-		<td><?php if(LANG == en){ echo "English"; } ?></td>
+		<td>
+                    <select name="LANG">
+                        <?php foreach($lang as $key => $val) { ?>
+                        <option value="<?php echo $key; ?>" <?php if(LANG == $key) { echo "selected"; } ?>><?php echo $val; ?></option>
+                        <?php } ?>
+                    </select>
+                </td>
 	</tr>
 	<tr>
 		<td>Server Speed</td>
