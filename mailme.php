@@ -1,15 +1,16 @@
 <?php 
-
+include("GameEngine/config.php");
 ### start config ### 
 
-$strEmpfaenger = 'changeme@change.me'; 
+//$strEmpfaenger = 'changeme@change.me';
+$strEmpfaenger = SUPPORT_EMAIL;
 
-$strFrom = "From: TravianiX Support <changeme@change.me>\n"; 
-$strFrom .= "X-Sender: <changeme@change.me>\n"; 
+$strFrom = "From: TravianiX Support <".$strEmpfaenger.">\n"; 
+$strFrom .= "X-Sender: <".$strEmpfaenger.">\n"; 
 $strFrom .= "X-Mailer: PHP\n"; 
 $strFrom .= "X-Priority: 3\n"; 
-$strFrom .= "Errors-To: <changeme@change.me>\n"; 
-$strFrom .= "Return-Path: <changeme@change.me>\n"; 
+$strFrom .= "Errors-To: <".$strEmpfaenger.">\n"; 
+$strFrom .= "Return-Path: <".$strEmpfaenger.">\n"; 
 $strFrom .= "Reply-To: " . $_POST['Emailadress'] . "\n"; 
 $strFrom .= "Content-Type: text; charset=iso-8859-15\n"; 
 
